@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D921E6D81D21AAA900C2CC11 /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = D921E6D61D21AAA900C2CC11 /* sfx_flap.caf */; };
+		D921E6D91D21AAA900C2CC11 /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = D921E6D71D21AAA900C2CC11 /* sfx_goal.caf */; };
 		D945C0701D1DA352002F31C0 /* GameEffects.sks in Resources */ = {isa = PBXBuildFile; fileRef = D945C06F1D1DA352002F31C0 /* GameEffects.sks */; };
 		D9929D861D1DC3E7000274E7 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9929D851D1DC3E7000274E7 /* MSButtonNode.swift */; };
 		D9A7E52E1D1D69F90024A000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7E52D1D1D69F90024A000 /* AppDelegate.swift */; };
@@ -17,13 +19,13 @@
 		D9A7E5391D1D69F90024A000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A7E5381D1D69F90024A000 /* Assets.xcassets */; };
 		D9A7E53C1D1D69F90024A000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A7E53A1D1D69F90024A000 /* LaunchScreen.storyboard */; };
 		D9A7E54E1D1D6C920024A000 /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = D9A7E54D1D1D6C920024A000 /* Hero.sks */; };
-		D9E6EF891D1D778900C9BEBC /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = D9E6EF871D1D778900C9BEBC /* sfx_flap.caf */; };
-		D9E6EF8A1D1D778900C9BEBC /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = D9E6EF881D1D778900C9BEBC /* sfx_goal.caf */; };
 		D9E6EF8C1D1D7B5C00C9BEBC /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E6EF8B1D1D7B5C00C9BEBC /* CGFloat+Extensions.swift */; };
 		D9EA341D1D1D88B3001B73E1 /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = D9EA341C1D1D88B3001B73E1 /* Obstacle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D921E6D61D21AAA900C2CC11 /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
+		D921E6D71D21AAA900C2CC11 /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
 		D945C06F1D1DA352002F31C0 /* GameEffects.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameEffects.sks; sourceTree = "<group>"; };
 		D9929D851D1DC3E7000274E7 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
 		D9A7E52A1D1D69F90024A000 /* Happy Bunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Bunny.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,8 +38,6 @@
 		D9A7E53B1D1D69F90024A000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9A7E53D1D1D69F90024A000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9A7E54D1D1D6C920024A000 /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
-		D9E6EF871D1D778900C9BEBC /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
-		D9E6EF881D1D778900C9BEBC /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
 		D9E6EF8B1D1D7B5C00C9BEBC /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 		D9EA341C1D1D88B3001B73E1 /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D921E6D51D21AAA900C2CC11 /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				D921E6D61D21AAA900C2CC11 /* sfx_flap.caf */,
+				D921E6D71D21AAA900C2CC11 /* sfx_goal.caf */,
+			);
+			path = SFX;
+			sourceTree = "<group>";
+		};
 		D9A7E5211D1D69F90024A000 = {
 			isa = PBXGroup;
 			children = (
@@ -83,21 +92,11 @@
 				D9A7E5351D1D69F90024A000 /* Main.storyboard */,
 				D9929D851D1DC3E7000274E7 /* MSButtonNode.swift */,
 				D9A7E5381D1D69F90024A000 /* Assets.xcassets */,
-				D9E6EF861D1D778900C9BEBC /* SFX */,
 				D9A7E53A1D1D69F90024A000 /* LaunchScreen.storyboard */,
 				D9A7E53D1D1D69F90024A000 /* Info.plist */,
+				D921E6D51D21AAA900C2CC11 /* SFX */,
 			);
 			path = "Happy Bunny";
-			sourceTree = "<group>";
-		};
-		D9E6EF861D1D778900C9BEBC /* SFX */ = {
-			isa = PBXGroup;
-			children = (
-				D9E6EF871D1D778900C9BEBC /* sfx_flap.caf */,
-				D9E6EF881D1D778900C9BEBC /* sfx_goal.caf */,
-			);
-			name = SFX;
-			path = ../../../../Downloads/SFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,13 +160,13 @@
 			files = (
 				D9EA341D1D1D88B3001B73E1 /* Obstacle.sks in Resources */,
 				D9A7E5301D1D69F90024A000 /* GameScene.sks in Resources */,
+				D921E6D91D21AAA900C2CC11 /* sfx_goal.caf in Resources */,
 				D9A7E53C1D1D69F90024A000 /* LaunchScreen.storyboard in Resources */,
 				D9A7E54E1D1D6C920024A000 /* Hero.sks in Resources */,
-				D9E6EF8A1D1D778900C9BEBC /* sfx_goal.caf in Resources */,
 				D9A7E5391D1D69F90024A000 /* Assets.xcassets in Resources */,
 				D945C0701D1DA352002F31C0 /* GameEffects.sks in Resources */,
 				D9A7E5371D1D69F90024A000 /* Main.storyboard in Resources */,
-				D9E6EF891D1D778900C9BEBC /* sfx_flap.caf in Resources */,
+				D921E6D81D21AAA900C2CC11 /* sfx_flap.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
